@@ -1,45 +1,171 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Welcome to SlabyGYM
 
-Welcome USER_NAME,
+## User-Centric Frontend Development Milestone Project
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Introduction
+The Purpose of this README.md file is to provide a good insight with valuble information to you in order to understand how the website was established from the early staged to the end product. 
+The end product is going to be a Fictional and functional Gym site based on HTML, CSS and Bootstrap filles which will highlight my learnings
+for the first module of the Course 
 
-## Gitpod Reminders
+Throughout this form i will be covering few important stages and i should do my best to provide as much information for each stage such us UX, Features, Technology Used, Testing, Deployment and Credits.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
+In this section we will establish what we are aiming to achive and for whom.
 
-`python3 -m http.server`
+#### Strategy - Project Goal
+The primary goal for **SlabyGYM** is to provide members of the public with service amenities where members of the public can improve their health condition and enjoy their time exercising, socialising and relaxing in a secure and safe place environment. The service is available to the public 
+via a membership / monthly subscription fee. **SlabyGYM** targets all members over the age of +21 and offers affordable joining fees.
 
-A blue button should appear to click: *Make Public*,
+#### Scope - Members Goal
+**SlabyGYM** targets all members over the age of +21 which are willing to invest time in themselves in redefining their physical 
+abilities.
 
-Another blue button should appear to click: *Open Browser*.
+1. Members Goal:
+* Easy to navigate throughout the website
+* Access to different types of classes 
+* Achieve and improve body dynamics
+* Improve overal health condition
+* Value for money
+* Access to modern facilities
+* Access to different types of equipment
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+2. Business Goals
 
-A blue button should appear to click: *Make Public*,
+* To attract new members 
+* To offer affordable range for subscription fees 
+* Highlight the range of services provided 
+* Improve brand awarnes throughout the website and social media
+* Increase reveneuw 
 
-Another blue button should appear to click: *Open Browser*.
+3. User Stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+As a customer visiting the website i would like to:
 
-## Updates Since The Instructional Video
+* Be able to navigate throughout the pages of the website
+* Have all neccessary information 
+* Be able to contact the organistation if needed
+* Clear content and specific 
+* Easy to find location and details 
+* Have a vast range to sellect form 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+As a developer my goals are to:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* Creat a modern and easy to navigate webpage
+* Easy to understand the webpage
+* Provide the customers with relevant information 
+* Ensure that website is suitable for all users including impared user
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### Structure 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The structure of the page is Hierachical Tree Structure which elements will be revealed by leyers when sellected.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+4 Design Choice 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+4.1 Font
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Goodle Font
+* EXO  
+* Roboto  
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+4.2 Icons
 
---------
+4.3 Colors
 
-Happy coding!
+4.4 Styling 
+
+4.5 Background 
+
+#### Skeleton - Wireframes 
+
+The webpage layout is going to be as per bellow for all three devices *PC, Tablet, Mobile*. Bellow are posted the Wireframes for all three devices in order to provide an insight of what the webpage will look
+, thus throughout the project there might be some changes. 
+Navigation bar will containi Home, Classes, Why Us, Join Us, Gym music. When clicked into the Classes the button will be changed with Gallery. Each navigation Button will be explained bellow allong with the frames.
+
+![Sitemap wireframe](/assets/wireframes/pc/2wireframepc-sitenavigation.PNG)
+
+First wireframe is the **Home Page**. On the top of the page I am going to have the hero picture along with the navigation bar. The middle sectiom is going to have some content with motivational speach. 
+Further down the bottom I am going to have the footer containing the map, social links, Terms and Conditions and contact us.
+
+![Home wireframe](/assets/wireframes/pc/1wireframepc-home.PNG) ![Classes wireframe](/assets/wireframes/tab/1hometab.PNG) ![Classes wireframe](/assets/wireframes/mob/1homemob.PNG)
+
+When clicked on **Classes** the visitor will be able to see the different type of classes and they can choose to book as per their needs. Notice that Classes button
+has been changed with Gallery. So that the visitor will be able to see the facilities / current members training.
+
+![Classes wireframe](/assets/wireframes/pc/3wireframepc-classes.PNG) ![Classes wireframe](/assets/wireframes/tab/2classestab.PNG) ![Classes wireframe](/assets/wireframes/mob/2classesmob.PNG)
+
+When clicked on **Book your class** will bring you to a new page where it will allow you to book the class by entering the personal details and by sellecting the type of clss and date. 
+
+![BooK Class wireframe](/assets/wireframes/pc/4wireframepc-book.PNG) ![Classes wireframe](/assets/wireframes/tab/3booktab.PNG) ![Classes wireframe](/assets/wireframes/mob/3bookmob.PNG)
+
+Also when you click on **Join Us** that will bring you to a similar registration form requesting personal details and next to keen as emergency details. 
+
+![Joinus wireframe](/assets/wireframes/pc/4wireframepc-joinus.PNG) ![Classes wireframe](/assets/wireframes/tab/4joinustab.PNG) ![Classes wireframe](/assets/wireframes/mob/4joinusmob.PNG)
+
+While in Classes the button for Gallery will be available and will contain relevant content to the visitor. When scrolled down there will be images coming up 
+along with cutomer feed back.
+
+![Gallery wireframe](/assets/wireframes/pc/5wireframepc-gallery.PNG) ![Classes wireframe](/assets/wireframes/tab/5gallerytab.PNG) ![Classes wireframe](/assets/wireframes/mob/5gallerymob.PNG)
+
+When clicked on **Why Us** will be presentent with reasons of why choosing us. Also the more you scroll the more reasons will come up the screen
+
+![Whyus wireframe](/assets/wireframes/pc/6wireframepc-whyus.PNG) ![Classes wireframe](/assets/wireframes/tab/6whyustab.PNG) ![Classes wireframe](/assets/wireframes/mob/6whyusmob.PNG)
+
+Final but not least when sellecting **Gym Music** you will be presented with a list of tracks availabe to download for you device.
+
+![Music wireframe](/assets/wireframes/pc/7wireframepc-music.PNG) ![Classes wireframe](/assets/wireframes/tab/7musictab.PNG) ![Classes wireframe](/assets/wireframes/mob/7musicmob.PNG)
+
+
+
+
+## Features 
+1. Existing Features 
+
+Navigation Bar is made of the fallowing:
+
+* Home -  which is the main page, 
+* Classes - which will present the types of clasess, where the visitor,can book his/her desired class, (when Classes has been sellected the Gallery will be available)
+* Gallery - will be availabe after the visitor clicked on Classes, in here the visitor can see the facilities and current members training
+* Book your class - which then will bring up a registration form
+* Join Us -  at the top of the page wich will allow the visitor to join the gym in a few steps by providing personal details.
+* Why Us - will provide reasons of why joining our gym in particular 
+* Gym Music - where all visitors can download different type of music which will motivate them when coming to the gym  
+ 
+Each page will contain the navigation, body and footer. Accross all pages the footer will remain the same while only the body of the page will change, when other function sellected.
+
+2. Features can be Implemented / Improved 
+
+* Book your class - can be improved in providing a bigger range and sellection 
+* Why Us - Can be implemented in the homa page istead and replaced with a page full of exercise types
+* Nutrition Function - can be implemented to provide the visitor with and idea of equaly ballanced Nutritionand % Exercise 
+* Function for Log In - Can be implemented so customers can modify personal details 
+* Diet Function - to provide customers with large variety of different typs of diet by sellecting the funcitons provided and based on that the best match to that 
+diet to be provide to the customer 
+
+
+
+## Technology Used
+* Used BootstrapCDN to obtain the link in the header for fontawesome https://www.bootstrapcdn.com/fontawesome/
+* Used CDNJS to obtain link in the header for Hover https://cdnjs.com/ 
+* Used Bootstrap to obtain the link in the header https://getbootstrap.com/docs/5.0/getting-started/download/#cdn-via-jsdelivr
+* Used Google Fonts for CSS https://fonts.google.com/specimen/Roboto?preview.text_type=custom
+
+## Deployment
+
+## Credits
+
+1. Content
+* Content for the section taken from https://iconichealthclubs.ie/gyms-dublin/
+
+2. Media
+* Hereo Image from Wallpaper Cave: licence (free to use,share or modify, even commercialy) https://wallpapercave.com/wp/wp2356164.jpg 
+
+
+3. Code
+
+
+
+4. Acknowladge
+* Recived inspiration on creating my README.MD file from "Yoni Lavi" (https://github.com/Code-Institute-Solutions/readme-template) on Features 
+* Recived inspiration on creating my README.MD file from "Code Institute" (https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/c75714c9636b4cf59120d60acbec6ffd/f851a16813f14b3aae7bd1e6560443cd/) on the content of the README.md file
+*
+

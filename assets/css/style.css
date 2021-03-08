@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet');
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/*----bg.color----*/
+.bg-color-title {
+    background-color: black;
+    
+}
+/*----Hero img----*/
+#hero {
+    height: 500px;
+    display: block;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+      
+}
+
+/*----heading----*/
+.title {
+
+    margin-left: 70px;
+    margin-top: 200px;
+    font-style: italic;
+    color: #838fa0;
+    font-family: 'EXO' sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    text-decoration: none;
+    position: absolute;
+    z-index: 50;
+}
+/*----Navigation----*/
+
+#nav {
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+
+   
+}
+
+.menucontainer li, a {
+    color: #838fa0;
+    letter-spacing: 1px;
+    list-style-type: none;
+    text-decoration: none;
+    
+    
+    
+}
