@@ -38,6 +38,16 @@
     text-align: left;
     padding-left: 140px;
 }
+
+.title h1 {
+    margin-bottom: 60px;
+}
+.title h2 {
+    padding-left: 40px;
+}
+.title h3 {
+    padding-left: 20px;
+}
 /*----alert&butoon----*/
 .box {
     padding-left: 0px;
@@ -60,17 +70,13 @@
     color: black;
     font-family: 'Exo';
 }
-.text-muted {
-    float: right;
-}
-
 
 /*----Navigation----*/
 
 #nav {
     
     text-align: right;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     padding-right: 40px;
     font-family: 'Exo';
     font-size: x-large;
@@ -87,4 +93,28 @@
 
 a:hover {
     color: #5b3e38;
+}
+/*----body section----*/
+
+#section {
+    height: 500px;
+    background-color: #4a5666;
+}
+
+#section h3, p {
+    text-align: center;
+    color: black;
+}
+#section h3 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+#section p{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.text-muted {
+    margin-top: 30px;
 }
