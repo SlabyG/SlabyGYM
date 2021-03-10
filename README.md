@@ -167,5 +167,5 @@ diet to be provide to the customer
 4. Acknowladge
 * Recived inspiration on creating my README.MD file from "Yoni Lavi" (https://github.com/Code-Institute-Solutions/readme-template) on Features 
 * Recived inspiration on creating my README.MD file from "Code Institute" (https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/c75714c9636b4cf59120d60acbec6ffd/f851a16813f14b3aae7bd1e6560443cd/) on the content of the README.md file
-*
+* Eventyret_mentor for suggesting on ask-us-anything on slack community that i use incorect url for the iframe which inspired me to obtain correct url link
 
