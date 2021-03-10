@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet');
-
+/*----index.html section----*/
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
@@ -157,3 +157,32 @@ a:hover {
 .contact {
     color: #838fa0;
 }
+/*----End index.html section----*/
+
+/*----classes.html section----*/
+#classes {
+    height: 500px;
+    background: #4a5666;
+}
+.left {
+    float: left;
+    width: 40%;
+}
+.leftclass {
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+
+.right {
+    float: right;
+    width: 40%;
+}
+.rightclass {
+    margin-right: 50px;
+    margin-top: 20px;
+    
+}
+
+
+
