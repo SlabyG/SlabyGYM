@@ -140,7 +140,7 @@ Each page will contain the navigation, body and footer. Accross all pages the fo
 * Function for Log In - Can be implemented so customers can modify personal details 
 * Diet Function - to provide customers with large variety of different typs of diet by sellecting the funcitons provided and based on that the best match to that 
 diet to be provide to the customer 
-
+* make the button for book your class available only when a class has been selected.
 
 
 ## Technology Used
