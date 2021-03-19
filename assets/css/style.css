@@ -167,8 +167,6 @@ a:hover {
 }
 .row {
     display: block;
-    text-align: center;
-    
 }
 
 .left {
@@ -182,6 +180,9 @@ a:hover {
     clear: both;
     
 }
+.leftclass p{
+    padding-left: 0px;
+}
 
 .right {
     float: right;
@@ -193,17 +194,97 @@ a:hover {
     margin-top: 20px;
     line-height: 20px;
     clear: both;
-    
-    
+}
+.rightclass p{
+    padding-left: 0px;
 }
 
 .button {
     background-color: #212529;
     color: #838fa0;
-    margin-bottom: 30px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
     border: 1px;
 } 
 .button:hover {
     color: #5b3e38;
 }
+.booking {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+/*----End classes.html section----*/
+/*----bookyourclass.html section----*/
+.forms {
+    width: 100%;
+    height: 500px;
+    background: #4a5666;
+    color: #838fa0;
+    overflow: auto;
+}
+.legend {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border:1px solid #838fa0;
+    width: 90%;
+   
+}
+.legend h3 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.divname, .divfname, .divemail, .divtelephone, .divdate, .divtime, .form, .divadditinalinfo {
+    margin-left: 40px;
+    
+}
+.divname, .divfname {
+    display: inline-block;
+}
+.divemail, .divtelephone {
+    display: inline-block;
+}
 
+
+
+.form {
+    width: 33%;
+}
+.input-group-text, .form-select  {
+    background-color: transparent; 
+    border:1px solid #838fa0;
+    color: #838fa0;
+
+}
+
+#name, #fname, #email, #telephone, #date, #time, #submit {
+    background-color: transparent;    
+    padding: 0px;
+    color: #838fa0;
+}
+
+input {
+    background-color: transparent;
+    border:1px solid #838fa0;    
+    padding: 0px;
+    outline: none;
+}
+
+#additinalinfo {
+    background-color: transparent;
+    outline: none;
+    border:1px solid #838fa0;    
+    padding: 0px;
+    color: #838fa0;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#submit {
+    margin-left: 50%;
+    margin-bottom: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

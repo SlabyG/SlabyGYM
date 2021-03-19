@@ -57,15 +57,75 @@
     <!--/Nav-->
     <!-- Quote-->
     <section>
-        <div id="section" class="container-fluid overflow-hidden col-12">
-            <h3><i class="fas fa-flag-checkered"></i> Begin your journey with us! Gallery <i class="fas fa-flag-checkered"></i></h3>
-            <p>
-                Whether you are a complete beginner or a more seasoned gym user, want to lose weight, tone up, destress or just want to get active, we have everything you will need and more. Simply get in contact with one of our gyms below to arrange a club tour.
-            </p>
-            <p class="text-muted"><small>You must be over 21 years of age to join us!</small>
-             <br><a href="#" class="btn" target="_blank"><strong>Join Us!</strong></a>
-            </p>
+        <div class="forms">
+            <form>
+                <fieldset >
+                    <legend class="legend">
+                        <h3>Enter your details here!</h3>
+                        <div>
+                            <div class="divname">
+                                <label for="name">Name: </label>
+                                <br>
+                                    <input id="name" name="name" type="text"  required>
+                            </div>
+                            
+                            <div class="divfname">
+                                <label for="fname">First Name: </label>
+                                <br>
+                                    <input id="fname" name="fname" type="fname" required>
+                            </div>
+                            <br>
+                            <div class="divemail">
+                                <label for="email">Email: </label>
+                                <br>
+                                    <input id="email" name="email" type="email" required>
+                            </div>
+                            <div class="divtelephone">
+                                <label for="telephone">Mobile: </label>
+                                <br>
+                                    <input id="telephone" name="telephone" type="number" required>
+                            </div>
+                            <br>
+                            <div class="divdate">
+                                <label for="date">Date: </label>
+                                <br>
+                                    <input id="date" name="date" type="date" required >
+                            </div>
+                            <div class="divtime">
+                                <label for="time">Time: </label>
+                                <br>
+                                    <input id="time" name="time" type="time" required>
+                            </div>
+                            <br>
+                            <div class="input-group mb-3 form"> <!--the code in this div was taken from bootstrap Input Group/Custom Sellect# top option-->
+                            <label class="input-group-text" for="inputGroupSelect01">Select your calass</label>
+                                <select class="form-select" id="inputGroupSelect01" required>
+                                    <option selected ></option>
+                                    <option value="1">Free Weight</option>
+                                    <option value="2">Group PT</option>
+                                    <option value="3">Spin & Pump</option>
+                                    <option value="4">Total Body Tabata</option>
+                                    <option value="5">Weight Training Technique</option>
+                                    <option value="6">RIP 60</option>
+                                    <option value="7">Yoga</option>
+                                    <option value="8">Blast of Ab</option>
+                                </select><!--the code in this div was taken from bootstrap Input Group/Custom Sellect# top option-->
+                        </div>  
+                        <div class="divadditinalinfo">
+                            <label for="additinalinfo">Additional Feedback: </label>
+                            <br>
+                            <textarea name="additinalinfo" id="additinalinfo" cols="50" rows="4" placeholder="Enter Your Feedback"></textarea>
+                        </div>
+                        </div>
+                    </legend>
+                </fieldset>
+                <div>
+                    <input id="submit" type="submit" value="Book Now">
+                </div>
+                
+            </form>
         </div>
+       
     </section>
     <!--/Quote-->
     <!--Social-->
