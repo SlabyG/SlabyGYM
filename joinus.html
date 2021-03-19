@@ -56,16 +56,100 @@
     </header>
     <!--/Nav-->
     <!-- Quote-->
-    <section>
-        <div id="section" class="container-fluid overflow-hidden col-12">
-            <h3><i class="fas fa-flag-checkered"></i> Begin your journey with us! Gallery <i class="fas fa-flag-checkered"></i></h3>
-            <p>
-                Whether you are a complete beginner or a more seasoned gym user, want to lose weight, tone up, destress or just want to get active, we have everything you will need and more. Simply get in contact with one of our gyms below to arrange a club tour.
-            </p>
-            <p class="text-muted"><small>You must be over 21 years of age to join us!</small>
-             <br><a href="#" class="btn" target="_blank"><strong>Join Us!</strong></a>
-            </p>
+    <section >
+        <div class="forms">
+            <form>
+                <fieldset >
+                    <legend class="legend">
+                        <h3>Enter your personal details here!</h3>
+                        <div>
+                            <div class="divname">
+                                <label for="name">Name: </label>
+                                <br>
+                                    <input id="name" name="name" type="text"  required>
+                            </div>
+                            
+                            <div class="divfname">
+                                <label for="fname">First Name: </label>
+                                <br>
+                                    <input id="fname" name="fname" type="fname" required>
+                            </div>
+                            <br>
+                            <div class="divemail">
+                                <label for="email">Email: </label>
+                                <br>
+                                    <input id="email" name="email" type="email" required>
+                            </div>
+                            <div class="divtelephone">
+                                <label for="telephone">Mobile: </label>
+                                <br>
+                                    <input id="telephone" name="telephone" type="number" maxlength="10" required>
+                            </div>
+                            <br>
+                            <div class="divdate">
+                                <label for="date">Date of Birth: </label>
+                                <br>
+                                    <input id="date" name="date" type="date" required >
+                            </div>
+                            <div class="divhome">
+                                <label for="home">Home Address: </label>
+                                <br>
+                                 <input id="home" name="address" type="address" required>
+                            </div>
+                            
+                            <div class="divadditinalinfo">
+                                <label for="additinalinfo">Medical History: </label>
+                                <br>
+                                <textarea name="additinalinfo" id="additinalinfo" cols="50" rows="4" placeholder="Enter Your Medical History Here"></textarea>
+                            </div>
+                            <hr>
+                             <h3>Enter your next of kin details here!</h3>
+                              <div class="divname">
+                                <label for="kname">Name: </label>
+                                <br>
+                                    <input id="kname" name="name" type="text"  required>
+                            </div>
+                            
+                            <div class="divfname">
+                                <label for="kfname">First Name: </label>
+                                <br>
+                                    <input id="kfname" name="fname" type="fname" required>
+                            </div>
+                            <br>
+                            <div class="divemail">
+                                <label for="kemail">Email: </label>
+                                <br>
+                                    <input id="kemail" name="email" type="email" required>
+                            </div>
+                            <div class="divtelephone">
+                                <label for="ktelephone">Mobile: </label>
+                                <br>
+                                    <input id="ktelephone" name="telephone" type="number" maxlength="10" required>
+                            </div>
+                            <br>
+                            <div class="divname">
+                                <label for="kstatus">Status: </label>
+                                <br>
+                                    <input id="kstatus" name="name" type="text"  required>
+                            </div>
+                            <br>
+                            <div class="divaddress">
+                                <label for="kaddress">Home Address: </label>
+                                <br>
+                                 <input id="kaddress" name="address" type="address" required>
+                            </div>
+                            <br>
+                        </div>
+                    </legend>
+                </fieldset>
+                <div>
+                    <p class="terms">I agree with the Terms & Conditiona  <input type="checkbox" name="accept_terms" value="yes" checked required></p>
+                    <input id="submit" type="submit" value="Book Now">
+                </div>
+                
+            </form>
         </div>
+       
     </section>
     <!--/Quote-->
     <!--Social-->
