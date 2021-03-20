@@ -121,7 +121,12 @@ a:hover {
 .text-muted {
     margin-top: 30px;
 }
-
+.btn {
+    border: 1px solid #1c2230;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .btn:hover {
     color: black;
 }
@@ -140,6 +145,7 @@ a:hover {
 #socialmedia li, a {
     display: inline;
     
+    
 }
 .media {
     text-align: center;
@@ -147,6 +153,7 @@ a:hover {
     height: 200px;
     background-color: #1c2230;
     color: #838fa0;
+    
 }
 .media h5{
     margin-bottom: 10px;
@@ -205,8 +212,10 @@ a:hover {
     padding-bottom: 4px;
     padding-left: 5px;
     padding-right: 5px;
-    border: 1px;
-} 
+    border: 1px solid #838fa0;
+    border-radius: 6px;
+}
+
 .button:hover {
     color: #5b3e38;
 }
@@ -280,12 +289,20 @@ input {
     width: 50%;
     margin-bottom: 20px;
 }
-
+.accept {
+    text-align: center;
+}
 #submit {
-    margin-left: 48%;
+    
     margin-bottom: 40px;
     padding-left: 5px;
     padding-right: 5px;
+    background-color: #212529; 
+    border: 1px solid #838fa0; 
+    border-radius: 6px;
+}
+#submit:hover {
+    color: #5b3e38;
 }
 .terms { 
     color: #838fa0;
