@@ -98,7 +98,7 @@ a:hover {
 #section {
     height: 500px;
     background-color: #4a5666;
-    overflow-x: hidden;
+    overflow: auto;
     
 }
 
@@ -142,6 +142,10 @@ a:hover {
     padding-left: 0px;
     margin-bottom: 0px;
 }
+.col-sm-12 {
+    display: inline-block;
+}
+
 #socialmedia li, a {
     display: inline;
     
@@ -170,7 +174,7 @@ a:hover {
     background: #4a5666;
     width: 100%; 
     text-align: center;
-    overflow-x: hidden;
+    overflow: auto;
 }
 .row {
     display: block;
@@ -214,6 +218,9 @@ a:hover {
     padding-right: 5px;
     border: 1px solid #838fa0;
     border-radius: 6px;
+}
+.container {
+   text-align: center;
 }
 
 .button:hover {
@@ -292,8 +299,8 @@ input {
 .accept {
     text-align: center;
 }
+
 #submit {
-    
     margin-bottom: 40px;
     padding-left: 5px;
     padding-right: 5px;
