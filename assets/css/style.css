@@ -54,11 +54,14 @@
     margin-bottom: 0px;
     
 }
-.alert, p {
+.alert, p, i {
+    color: black;
     margin-bottom: 0;
     padding-left: 12px;
     font-family: 'Exo' ;
-    
+}
+.fas, .fab {
+    color: #b8d5fd;
 }
 .link {
     float:right;
@@ -97,14 +100,14 @@ a:hover {
 
 #section {
     height: 500px;
-    background-color: #4a5666;
+    background-color: #0c1221;
     overflow: auto;
     
 }
 
 #section h3, p {
     
-    color: black;
+    color: #b8d5fd;
 }
 #section h3 {
     margin-top: 150px;
@@ -117,12 +120,15 @@ a:hover {
     padding-right: 90px;
     text-align: center;
 }
-
+#section a {
+    color: #b8d5fd;
+}
 .text-muted {
     margin-top: 30px;
+    color: #c3c3c3;
 }
 .btn {
-    border: 1px solid #1c2230;
+    border: 1px solid #b8d5fd;
     border-radius: 6px;
     margin-top: 20px;
     margin-bottom: 20px;
