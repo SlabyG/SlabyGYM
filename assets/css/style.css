@@ -100,7 +100,7 @@ a:hover {
 #section {
     background-color: #0c1221;
     overflow: auto;
-    
+    text-align: center;
 }
 
 #section h3, p {
@@ -112,12 +112,12 @@ a:hover {
     margin-bottom: 50px;
     text-align: center;
 }
-
 #section p{
-    padding-left: 40px;
-    padding-right: 40px;
-    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    
 }
+
 #section a {
     color: #b8d5fd;
 }

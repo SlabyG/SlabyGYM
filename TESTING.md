@@ -7,6 +7,9 @@ Index.html, css, hover, bootstrap links checked to see if they are functioning |
 Overall Website performance was at 91% | Hero Img was of a large file. converted the file via TinyPNG and then re-compressed via Compressor.io and set it used it as a pic instead of URL which brought the score between 96%-99%.
 Iframe was not working properly due to an error | i posted on slack comunity on /ask-us-anything Eventyret_mentor sugested the URL link is wrong. then i googled how to obtain the correct url link for the google map. [Error link](/assets/testings/error1-iframe.PNG)
 Screen reader users rely on frame titles to describe the contents of frames. | added a new title to all .html [Iframe error](/assets/testings/html-iframe.PNG)
+lighthouse score for SEO of 92 | added a meta link with name and content to boost search engine maximization.
+hero image | the picture size has been compressed several times. each time when lighthouse is run it states that the picture can still be compressed even more. if picture is compresed more it will have a bad quality. issue not fixed
+
 
 
 
