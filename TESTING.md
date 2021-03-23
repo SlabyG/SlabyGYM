@@ -6,7 +6,7 @@ Wireframes unable to load due to incorect code for wireframes and wrong format |
 Index.html, css, hover, bootstrap links checked to see if they are functioning | fully functioning [bootstrap test](/assets/testings/links.PNG)
 Overall Website performance was at 91% | Hero Img was of a large file. converted the file via TinyPNG and then re-compressed via Compressor.io and set it used it as a pic instead of URL which brought the score between 96%-99%.
 Iframe was not working properly due to an error | i posted on slack comunity on /ask-us-anything Eventyret_mentor sugested the URL link is wrong. then i googled how to obtain the correct url link for the google map. [Error link](/assets/testings/error1-iframe.PNG)
-Screen reader users rely on frame titles to describe the contents of frames. | 
+Screen reader users rely on frame titles to describe the contents of frames. | added a new title to all .html [Iframe error](/assets/testings/html-iframe.PNG)
 
 
 
