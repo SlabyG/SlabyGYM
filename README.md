@@ -159,7 +159,18 @@ diet to be provide to the customer
 
 2. Media
 * Hereo Image from Wallpaper Cave: licence (free to use,share or modify, even commercialy) https://wallpapercave.com/wp/wp2356164.jpg 
-
+* Gallery pic: Cleyder Duque - https://www.pexels.com/photo/man-in-white-t-shirt-and-gray-pants-holding-black-dumbbell-3621731/
+* Gallery pic: Ivan Samkov - https://www.pexels.com/photo/man-exercising-at-a-gym-4164759/
+* Gallery pic: Andrea Piacquadio - https://www.pexels.com/photo/man-in-white-tank-top-and-grey-shorts-lifting-dumbbell-3838389/
+* Gallery pic: Andrea Piacquadio - https://www.pexels.com/photo/man-in-black-tank-top-holding-black-barbell-3916762/
+* Gallery pic: Andrea Piacquadio - https://www.pexels.com/photo/women-s-assorted-sports-bras-raising-their-pink-dumbbells-864990/
+* Gallery pic: Andrea Piacquadio - https://www.pexels.com/photo/photo-of-woman-smiling-3768150/
+* Gallery pic: Andrea Piacquadio - https://www.pexels.com/photo/women-doing-yoga-class-on-pink-yoga-mat-3775593/
+* Gallery pic: William Choquette - https://www.pexels.com/photo/an-on-treadmill-1954524/
+* Gallery pic: Cesar Galeão - https://www.pexels.com/photo/man-in-black-tank-top-exercising-3253498/
+* Gallery pic: Li Sun - https://www.pexels.com/photo/photo-of-woman-raising-dumbbells-2475878/
+* Gallery pic: Sabel Blanco - https://www.pexels.com/photo/photo-of-woman-lifting-two-dumbbells-1638324/
+* Gallery pic: Anthony Shkraba https://www.pexels.com/photo/photo-of-women-doing-stretching-4662344/
 
 3. Code
 * div class="input-group mb-3" from bookyourclass.htm copied from https://getbootstrap.com/docs/5.0/forms/input-group/#buttons-with-dropdowns
