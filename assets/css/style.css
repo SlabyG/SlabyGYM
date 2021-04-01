@@ -329,9 +329,11 @@ input {
 
 #pictures img {
     width: 100%;
-    background: #212529;
 }
 
-@media screen and (max-width:1393px) {
-    
+@media screen and (max-width:943px) {
+    #pictures {
+    column-count: 1;
+    column-gap: 0;
+    }
 }

@@ -171,6 +171,8 @@ diet to be provide to the customer
 * Gallery pic: Li Sun - https://www.pexels.com/photo/photo-of-woman-raising-dumbbells-2475878/
 * Gallery pic: Sabel Blanco - https://www.pexels.com/photo/photo-of-woman-lifting-two-dumbbells-1638324/
 * Gallery pic: Anthony Shkraba https://www.pexels.com/photo/photo-of-women-doing-stretching-4662344/
+* Gallery pic: Gustavo Fring - https://www.pexels.com/photo/cheerful-female-instructor-with-red-fit-ball-at-gym-during-training-of-prenatal-group-3984366/
+
 
 3. Code
 * div class="input-group mb-3" from bookyourclass.htm copied from https://getbootstrap.com/docs/5.0/forms/input-group/#buttons-with-dropdowns
