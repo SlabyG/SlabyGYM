@@ -320,7 +320,7 @@ input {
     text-align: center;
     margin-bottom: 10px;
 }
-
+/*----END bookyourclass.html / joinus.html section----*/
 /*----gallery.html section----*/
 #pictures {
     column-count: 3;
@@ -333,7 +333,34 @@ input {
 
 @media screen and (max-width:943px) {
     #pictures {
+    column-count: 2;
+    column-gap: 0;
+    }
+}
+
+@media screen and (max-width:655px) {
+    #pictures {
     column-count: 1;
     column-gap: 0;
     }
+}
+/*----END gallery.html section----*/
+/*---- WhyUs.html section----*/
+h4, li{
+    color:#b8d5fd;
+}
+.whyleft {
+    float:left;
+    display:inline-block;
+}
+.whyright{
+    float:right;
+    margin-right:2%;
+    display:inline-block;
+}
+.buletpoints-left, li{
+    text-align:left;
+}
+.buletpoints-right, li{
+    text-align:left;
 }

@@ -156,6 +156,7 @@ diet to be provide to the customer
 1. Content
 * Content for the section taken from https://iconichealthclubs.ie/gyms-dublin/
 * Content for classes taken from https://www.clubvitae.com/cardifflane/class-descriptions/
+* Content for WhyUs(Key Features) taken from https://www.clubvitae.com/cardifflane/?utm_source=mybusiness&utm_medium=organic
 
 2. Media
 * Hereo Image from Wallpaper Cave: licence (free to use,share or modify, even commercialy) https://wallpapercave.com/wp/wp2356164.jpg 
