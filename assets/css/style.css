@@ -349,18 +349,6 @@ input {
 h4, li{
     color:#b8d5fd;
 }
-.whyleft {
-    float:left;
-    display:inline-block;
-}
-.whyright{
-    float:right;
-    margin-right:2%;
-    display:inline-block;
-}
-.buletpoints-left, li{
-    text-align:left;
-}
-.buletpoints-right, li{
-    text-align:left;
+.buletpoints {
+    text-align:center;
 }
