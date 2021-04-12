@@ -30,6 +30,7 @@
     color: #b8d5fd;
     font-family: 'Exo';
     z-index: 1;
+    width: auto;
     
 }
 
@@ -81,6 +82,7 @@
     font-size: x-large;
     
 }
+
 
 
 .menucontainer li, a {
@@ -336,6 +338,8 @@ input {
     column-count: 2;
     column-gap: 0;
     }
+    
+    
 }
 
 @media screen and (max-width:655px) {
@@ -343,6 +347,18 @@ input {
     column-count: 1;
     column-gap: 0;
     }
+    .title {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .logo, .logoone, .logotwo, .logothree {
+        font-size: medium;
+    }
+    .title h1 {
+        margin-bottom: 15px;
+    }
+    
 }
 /*----END gallery.html section----*/
 /*---- WhyUs.html section----*/
