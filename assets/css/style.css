@@ -370,3 +370,12 @@ h4, li{
 }
 /*----END WhyUs.html section----*/
 /*---- gymmusic.html section----*/
+
+.rock-music {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.relax-music {
+    display: inline-block;
+    margin-bottom: 50px;
+}
