@@ -148,6 +148,8 @@ diet to be provide to the customer
 * Used CDNJS to obtain link in the header for Hover https://cdnjs.com/ 
 * Used Bootstrap to obtain the link in the header https://getbootstrap.com/docs/5.0/getting-started/download/#cdn-via-jsdelivr
 * Used Google Fonts for CSS https://fonts.google.com/specimen/Roboto?preview.text_type=custom
+* Used Youtube to get the music links https://www.youtube.com/watch?v=tAGnKpE4NCI
+* Used YTMP3.CC to convert the Youtube links into mp3 files https://ytmp3.cc/youtube-to-mp3/ - music licence type unknown
 
 ## Deployment
 
