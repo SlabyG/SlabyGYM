@@ -135,8 +135,8 @@ Each page will contain the navigation, body and footer. Accross all pages the fo
 2. Features can be Implemented / Improved 
 
 * Book your class - can be improved in providing a bigger range and sellection 
-* Why Us - Can be implemented in the homa page istead and replaced with a page full of exercise types
-* Nutrition Function - can be implemented to provide the visitor with and idea of equaly ballanced Nutritionand % Exercise 
+* Why Us - Can be implemented in the home page istead and replaced with a page full of exercise types
+* Home Exercise - can be implemented to provide the members with different types of Exercise to practice at home
 * Function for Log In - Can be implemented so customers can modify personal details 
 * Diet Function - to provide customers with large variety of different typs of diet by sellecting the funcitons provided and based on that the best match to that 
 diet to be provide to the customer 

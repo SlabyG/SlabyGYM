@@ -153,9 +153,11 @@ a:hover {
 }
 
 #socialmedia li, a {
-    display: inline;
-    
-    
+    display: inline-block;
+    margin-right: 5px;
+}
+#socialmedia, li, a, i {
+    padding-left: 3px;
 }
 .media {
     text-align: center;
@@ -340,6 +342,7 @@ input {
     }
     
     
+    
 }
 
 @media screen and (max-width:655px) {
@@ -362,12 +365,10 @@ input {
 }
 /*----END gallery.html section----*/
 /*---- WhyUs.html section----*/
-h4, li{
+#section, h5 {
     color:#b8d5fd;
 }
-.buletpoints {
-    text-align:center;
-}
+
 /*----END WhyUs.html section----*/
 /*---- gymmusic.html section----*/
 
@@ -379,3 +380,4 @@ h4, li{
     display: inline-block;
     margin-bottom: 50px;
 }
+/*----END gymmusic.html section----*/
