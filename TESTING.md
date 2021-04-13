@@ -9,6 +9,13 @@ Iframe was not working properly due to an error | i posted on slack comunity on 
 Screen reader users rely on frame titles to describe the contents of frames. | added a new title to all .html [Iframe error](/assets/testings/html-iframe.PNG)
 lighthouse score for SEO of 92 | added a meta link with name and content to boost search engine maximization.
 hero image | the picture size has been compressed several times. each time when lighthouse is run it states that the picture can still be compressed even more. if picture is compresed more it will have a bad quality. issue not fixed
+Error 404 | Server error unknown reason unable to resolve [Error link](/assets/testings/server-error.PNG)
+Bugg 273 | Apearing 4 times unknown reason unable to resolve [Bugg273](/assts/testings/bug273.PNG)
+Bugg 86 | Apearing 16 times unknown reason unable to resolve [Bugg86](/assts/testings/bugg86.PNG)
+Bugg 238 | Apearing once unknown reason unable to resolve [Bugg238](/assts/testings/bugg238.PNG)
+Bugg 43 | Apearing 4 times unknown reason unable to resolve [Bugg43](/assts/testings/bugg43.PNG)
+Bugg 27 | Apearing 7 times unknown reason unable to resolve [Bugg27](/assts/testings/bugg27.PNG)
+
 
 
 
