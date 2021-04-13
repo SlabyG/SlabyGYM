@@ -178,7 +178,7 @@ diet to be provide to the customer
 
 
 3. Code
-* div class="input-group mb-3" from bookyourclass.htm copied from https://getbootstrap.com/docs/5.0/forms/input-group/#buttons-with-dropdowns
+* The whole navigation sevtion in all html files was taken from Bootstrap and adjusted after the need's of the site(https://getbootstrap.com/docs/4.5/components/navbar/)
 
 
 4. Acknowladge
