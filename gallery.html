@@ -28,27 +28,32 @@
               </div>
             </div>
                      
-            <div class="row ">
-                <div class="col">
-                     <ul id="nav" class="list-inline menucontainer">
-                         <li class="menuitem">
-                            <a href="index.html" ><strong>Home <i class="fas fa-home"></i></strong></a>
-                         </li>
-                         <li class="menuitem">
-                            <a href="classes.html"><strong>Classes <i class="fas fa-cogs"></i></strong></a>
-                         </li>
-                         <li class="menuitem">
-                            <a href="gallery.html"><strong>Gallery <i class="fas fa-camera"></i></strong></a>
-                         </li>
-                         <li class="menuitem">
-                            <a href="whyus.html"><strong>Why Us <i class="fas fa-question-circle"></i></strong></a>
-                         </li>
-                         <li class="menuitem">
-                             <a href="gymmusic.html"><strong>Gym Music <i class="fas fa-music"></i></strong></a>
-                         </li>
-                     </ul>
+            <nav class="navbar navbar-expand-lg navbar-light"> <!--The whole navigation sevtion was taken from Bootstrap and adjusted after the need's of the site(https://getbootstrap.com/docs/5.0/components/navbar/)-->
+              <div class="container-fluid justify-content-end">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto mb-2 mb-lg-0 justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html"><strong>Home <i class="fas fa-home"></i></strong></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="classes.html"><strong>Classes <i class="fas fa-cogs"></i></strong></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="gallery.html"><strong>Gallery <i class="fas fa-camera"></i></strong></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="whyus.html"><strong>Why Us <i class="fas fa-question-circle"></i></strong></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="gymmusic.html"><strong>Gym Music <i class="fas fa-music"></i></strong></a>
+                    </li>
+                  </ul>
                 </div>
-            </div>
+              </div>
+           </nav><!--The whole navigation sevtion was taken from Bootstrap and adjusted after the need's of the site(https://getbootstrap.com/docs/5.0/components/navbar/)-->
         </div>
     </header>
     <!--/Nav-->
@@ -82,22 +87,32 @@
                 <br>
                 <strong><i class="fas fa-search"></i> Find us on </strong> 
                 <ul id="socialmedia">
-                    <li>
-                        <a href="https://www.facebook.com/" target="_blank" aria-label="visit-us" rel="noreferrer">Facebook <i class="fab fa-facebook-square"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/?lang=en" target="_blank" aria-label="visit-us" rel="noreferrer">Twiter <i class="fab fa-twitter-square"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://ie.linkedin.com/" target="_blank" aria-label="visit-us" rel="noreferrer">LinkedIn <i class="fab fa-linkedin"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/" target="_blank" aria-label="visit-us" rel="noreferrer">YouTube <i class="fab fa-youtube-square"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/" target="_blank" aria-label="visit-us" rel="noreferrer">Instagram <i class="fab fa-instagram"></i></a>
-                    </li>
-                </ul>
+                  <li>
+                      <i class="fab fa-facebook-square"></i>
+                      <a class="networks d-none d-md-block d-lg-block" href="https://www.facebook.com/" target="_blank" aria-label="visit-us" rel="noreferrer">Facebook</a>
+                      <!--used the classes d-none d-md-block d-lg-block from bootstrap to hide on sm and md scr-->
+                  </li>
+                  <li>
+                      <i class="fab fa-twitter-square "></i>
+                      <a class="networks d-none d-md-block d-lg-block" href="https://twitter.com/?lang=en" target="_blank" aria-label="visit-us" rel="noreferrer">Twiter</a>
+                      <!--used the classes d-none d-md-block d-lg-block from bootstrap to hide on sm and md scr-->
+                  </li>
+                  <li>
+                      <i class="fab fa-linkedin "></i>
+                      <a class="networks d-none d-md-block d-lg-block" href="https://ie.linkedin.com/" target="_blank" aria-label="visit-us" rel="noreferrer">LinkedIn</a>
+                      <!--used the classes d-none d-md-block d-lg-block from bootstrap to hide on sm and md scr-->
+                  </li>
+                  <li>
+                      <i class="fab fa-youtube-square "></i>
+                      <a class="networks d-none d-md-block d-lg-block" href="https://www.youtube.com/" target="_blank" aria-label="visit-us" rel="noreferrer">YouTube</a>
+                      <!--used the classes d-none d-md-block d-lg-block from bootstrap to hide on sm and md scr-->
+                  </li>
+                  <li>
+                      <i class="fab fa-instagram "></i>
+                      <a class="networks d-none d-md-block d-lg-block" href="https://www.instagram.com/" target="_blank" aria-label="visit-us" rel="noreferrer">Instagram</a>
+                      <!--used the classes d-none d-md-block d-lg-block from bootstrap to hide on sm and md scr-->
+                  </li>
+              </ul>
             </div>
         </div>
     </footer>

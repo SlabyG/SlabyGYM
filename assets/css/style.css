@@ -67,24 +67,28 @@
 .link {
     float:right;
     margin-right: 12px;
-    color: black;
     font-family: 'Exo';
+}
+.join {
+    color: black;
 }
 
 /*----Navigation----*/
-
-#nav {
-    
-    text-align: right;
-    margin-bottom: 0px;
-    padding-right: 20px;
-    font-family: 'Exo';
-    font-size: x-large;
-    
+.navbar {
+    background-color: black;
 }
-
-
-
+.navbar-nav {
+    text-align: center;
+    background-color: black;
+}
+b, strong {
+    color: #b8d5fd;
+}
+.navbar-light .navbar-toggler {
+    color: #b8d5fd;
+    border-color:#b8d5fd;
+    margin-right: 7px;
+}
 .menucontainer li, a {
     color: #b8d5fd;
     letter-spacing: 1px;

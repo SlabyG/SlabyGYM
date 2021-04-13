@@ -27,13 +27,13 @@
                 <img id="hero" src="assets/images/hero-img.jpg" alt="gym.picture">
               </div>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light"> <!--The whole navigation sevtion was taken from Bootstrap and adjusted after the need's of the site(https://getbootstrap.com/docs/5.0/components/navbar/)-->
+                <div class="container-fluid justify-content-end">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span><i class="fas fa-bars"></i></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0 justify-content-center">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html"><strong>Home <i class="fas fa-home"></i></strong></a>
                       </li>
@@ -52,8 +52,8 @@
                     </ul>
                   </div>
                 </div>
-              </nav>
-        </div>
+             </nav><!--The whole navigation sevtion was taken from Bootstrap and adjusted after the need's of the site(https://getbootstrap.com/docs/5.0/components/navbar/)-->
+            </div>
         
     </header>
     <!--/Nav-->
@@ -81,9 +81,9 @@
                             <source src="/assets/music/Metallica One (Official Music Video).mp3" type="audio/mpeg">
                         </audio>
 
-                    <p>Metallica - Nothing Else Matters</p>
+                    <p>Metallica - The Unforgiven</p>
                         <audio controls>
-                            <source src="/assets/music/Metallica Nothing Else Matters (Official Music Video).mp3" type="audio/mpeg">
+                            <source src="/assets/music/Metallica The Unforgiven (Official Music Video).mp3" type="audio/mpeg">
                         </audio>
                     
                 </div>
@@ -129,19 +129,29 @@
                 <strong><i class="fas fa-search"></i> Find us on </strong> 
                 <ul id="socialmedia">
                     <li>
-                        <a href="https://www.facebook.com/" target="_blank" aria-label="visit-us" rel="noreferrer">Facebook <i class="fab fa-facebook-square"></i></a>
+                        <i class="fab fa-facebook-square"></i>
+                        <a class="networks d-none d-md-block d-lg-block" href="https://www.facebook.com/" target="_blank" aria-label="visit-us" rel="noreferrer">Facebook</a>
+                        <!--used the classes d-none d-md-block d-lg-block from bootstrap to hide on sm and md scr-->
                     </li>
                     <li>
-                        <a href="https://twitter.com/?lang=en" target="_blank" aria-label="visit-us" rel="noreferrer">Twiter <i class="fab fa-twitter-square"></i></a>
+                        <i class="fab fa-twitter-square "></i>
+                        <a class="networks d-none d-md-block d-lg-block" href="https://twitter.com/?lang=en" target="_blank" aria-label="visit-us" rel="noreferrer">Twiter</a>
+                        <!--used the classes d-none d-md-block d-lg-block from bootstrap to hide on sm and md scr-->
                     </li>
                     <li>
-                        <a href="https://ie.linkedin.com/" target="_blank" aria-label="visit-us" rel="noreferrer">LinkedIn <i class="fab fa-linkedin"></i></a>
+                        <i class="fab fa-linkedin "></i>
+                        <a class="networks d-none d-md-block d-lg-block" href="https://ie.linkedin.com/" target="_blank" aria-label="visit-us" rel="noreferrer">LinkedIn</a>
+                        <!--used the classes d-none d-md-block d-lg-block from bootstrap to hide on sm and md scr-->
                     </li>
                     <li>
-                        <a href="https://www.youtube.com/" target="_blank" aria-label="visit-us" rel="noreferrer">YouTube <i class="fab fa-youtube-square"></i></a>
+                        <i class="fab fa-youtube-square "></i>
+                        <a class="networks d-none d-md-block d-lg-block" href="https://www.youtube.com/" target="_blank" aria-label="visit-us" rel="noreferrer">YouTube</a>
+                        <!--used the classes d-none d-md-block d-lg-block from bootstrap to hide on sm and md scr-->
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/" target="_blank" aria-label="visit-us" rel="noreferrer">Instagram <i class="fab fa-instagram"></i></a>
+                        <i class="fab fa-instagram "></i>
+                        <a class="networks d-none d-md-block d-lg-block" href="https://www.instagram.com/" target="_blank" aria-label="visit-us" rel="noreferrer">Instagram</a>
+                        <!--used the classes d-none d-md-block d-lg-block from bootstrap to hide on sm and md scr-->
                     </li>
                 </ul>
             </div>
