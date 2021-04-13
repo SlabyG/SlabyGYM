@@ -69,7 +69,14 @@ Goodle Font
 
 4.2 Icons
 
+* Used icons in the navigation bar, footer throughout the website and on the body of the home page only, in the tittle.
+
+
 4.3 Colors
+* Alert background #ffdec2
+* Aler text - black 
+* Title #b8d5fd
+* Icons #b8d5fd
 
 4.4 Styling 
 
@@ -146,10 +153,11 @@ diet to be provide to the customer
 ## Technology Used
 * Used BootstrapCDN to obtain the link in the header for fontawesome https://www.bootstrapcdn.com/fontawesome/
 * Used CDNJS to obtain link in the header for Hover https://cdnjs.com/ 
-* Used Bootstrap to obtain the link in the header https://getbootstrap.com/docs/5.0/getting-started/download/#cdn-via-jsdelivr
+* Used Bootstrap to obtain the link in the header https://getbootstrap.com/docs/4.5/getting-started/introduction/
 * Used Google Fonts for CSS https://fonts.google.com/specimen/Roboto?preview.text_type=custom
 * Used Youtube to get the music links https://www.youtube.com/watch?v=tAGnKpE4NCI
-* Used YTMP3.CC to convert the Youtube links into mp3 files https://ytmp3.cc/youtube-to-mp3/ - music licence type unknown
+* Used YTMP3.CC to convert the Youtube links into mp3 files https://ytmp3.cc/youtube-to-mp3/ - music licence type private (used for educative purposes)
+* Used Bootstrap for navigation 
 
 ## Deployment
 
@@ -185,4 +193,4 @@ diet to be provide to the customer
 * Recived inspiration on creating my README.MD file from "Yoni Lavi" (https://github.com/Code-Institute-Solutions/readme-template) on Features 
 * Recived inspiration on creating my README.MD file from "Code Institute" (https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/c75714c9636b4cf59120d60acbec6ffd/f851a16813f14b3aae7bd1e6560443cd/) on the content of the README.md file
 * Eventyret_mentor for suggesting on ask-us-anything on slack community that i use incorect url for the iframe which inspired me to obtain correct url link
-
+* Alan from Turot Suport for suggesting to use v4.5 bootstrap 
