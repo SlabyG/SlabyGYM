@@ -145,12 +145,15 @@ a:hover {
 }
 
 /*----footer section----*/
-
+.socialnetworks {
+    overflow: hidden;
+}
 #map {
     width: 100%;
     height: 300px;
     border: 0px;
 }
+
 #socialmedia {
     padding-left: 0px;
     margin-bottom: 0px;
@@ -170,6 +173,7 @@ a:hover {
     background-color: #0c1221;
     color: #b8d5fd;
     display: inline-block;
+    
 }
 .media strong{
     margin-bottom: 10px;
@@ -224,7 +228,7 @@ a:hover {
 }
 
 .button {
-    background-color: #212529;
+    background-color: #0c1221;
     color: #b8d5fd;
     padding-bottom: 4px;
     padding-left: 5px;

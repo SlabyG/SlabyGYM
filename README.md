@@ -75,8 +75,13 @@ Goodle Font
 4.3 Colors
 * Alert background #ffdec2
 * Aler text - black 
+* Text muted #c3c3c3
 * Title #b8d5fd
 * Icons #b8d5fd
+* Navbar - black
+* Background #0c1221
+* Content, Buttons, Tabs #b8d5fd
+* Forms background #4a5666 
 
 4.4 Styling 
 

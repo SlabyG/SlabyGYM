@@ -15,6 +15,7 @@ Bug 86 | Apearing 16 times unknown reason unable to resolve [Bug 86](/assts/test
 Bug 238 | Apearing once unknown reason unable to resolve [Bug 238](/assts/testings/bug-238.PNG)
 Bug 43 | Apearing 4 times unknown reason unable to resolve [Bug 43](/assts/testings/bug-43.PNG)
 Bug 27 | Apearing 7 times unknown reason unable to resolve [Bug 27](/assts/testings/bug-27.PNG)
+Footer | All footers in the html had overflow creating the scroll bar for x axes, resolved by adding a class to each footer and hiden the overflow in css
 
 
 
