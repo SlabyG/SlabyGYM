@@ -165,6 +165,11 @@ diet to be provide to the customer
 * Used Bootstrap for navigation 
 
 ## Deployment
+* Log in on github, click Settings
+* Scroll to Github Pages and click on the link bellow (**Pages settings now has its own dedicated tab! Check it out here!**) 
+* Click Sellect Branch and change it to Master, 
+* Click on Select Folder and sellect root 
+* Save your settings you will notice that you will be provided with a link above for your website.  
 
 ## Credits
 
@@ -191,11 +196,13 @@ diet to be provide to the customer
 
 
 3. Code
-* The whole navigation sevtion in all html files was taken from Bootstrap and adjusted after the need's of the site(https://getbootstrap.com/docs/4.5/components/navbar/)
+* The whole navigation section in all html files was taken from Bootstrap and adjusted after the need's of the site(https://getbootstrap.com/docs/4.5/components/navbar/)
+* The form in book your class, where you sellect your class was taken from bootstrap.
 
 
 4. Acknowladge
 * Recived inspiration on creating my README.MD file from "Yoni Lavi" (https://github.com/Code-Institute-Solutions/readme-template) on Features 
 * Recived inspiration on creating my README.MD file from "Code Institute" (https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/c75714c9636b4cf59120d60acbec6ffd/f851a16813f14b3aae7bd1e6560443cd/) on the content of the README.md file
 * Eventyret_mentor for suggesting on ask-us-anything on slack community that i use incorect url for the iframe which inspired me to obtain correct url link
-* Alan from Turot Suport for suggesting to use v4.5 bootstrap 
+* Alan from Turot Suport for suggesting to use v4.5 bootstrap instead of v5
+* Jim_Lynx for suggesting what should deployment contain 
