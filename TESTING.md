@@ -10,12 +10,12 @@ Screen reader users rely on frame titles to describe the contents of frames. | a
 lighthouse score for SEO of 92 | added a meta link with name and content to boost search engine maximization.
 hero image | the picture size has been compressed several times. each time when lighthouse is run it states that the picture can still be compressed even more. if picture is compresed more it will have a bad quality. issue not fixed
 Error 404 | Server error unknown reason unable to resolve [Error link](/assets/testings/server-error.PNG)
-Bug 273 | Apearing 4 times unknown reason unable to resolve [Bug 273](/assets/testings/bug-273.PNG) 
-Bug 86 | Apearing 16 times unknown reason unable to resolve [Bug 86](/assts/testings/bug-86.PNG)
-Bug 238 | Apearing once unknown reason unable to resolve [Bug 238](/assts/testings/bug-238.PNG)
-Bug 43 | Apearing 4 times unknown reason unable to resolve [Bug 43](/assts/testings/bug-43.PNG)
-Bug 27 | Apearing 7 times unknown reason unable to resolve [Bug 27](/assts/testings/bug-27.PNG)
-Footer | All footers in the html had overflow creating the scroll bar for x axes, resolved by adding a class to each footer and hiden the overflow in css
+Bug 273 | Apearing 4 times unknown reason unable to resolve [Bug 273 link](/assets/testings/bug-273.PNG) 
+Bug 86 | Apearing 16 times unknown reason unable to resolve [Bug 86 link](/assets/testings/bug-86.PNG)
+Bug 238 | Apearing once unknown reason unable to resolve [Bug 238 link](/assets/testings/bug-238.PNG)
+Bug 43 | Apearing 4 times unknown reason unable to resolve [Bug 43 link](/assets/testings/bug-43.PNG)
+Bug 27 | Apearing 7 times unknown reason unable to resolve [Bug 27 link](/assets/testings/bug-27.PNG)
+Footer | All footers in the html had overflow creating the scroll bar for x axes, resolved by adding a class to each footer and hiden the overflow in css [Footer link](/assets/testings/test1.PNG)
 
 
 
