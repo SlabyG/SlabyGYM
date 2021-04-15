@@ -56,6 +56,14 @@ As a developer my goals are to:
 * Provide the customers with relevant information 
 * Ensure that website is suitable for all users including impared user
 
+As a returned customer i would like to see:
+
+* News with promotions and offers 
+* Access to log-in on the website 
+* Access to re-edit my details 
+* Gym store 
+* Access to information based on 
+
 #### Structure 
 
 The structure of the page is Hierachical Tree Structure which elements will be revealed by leyers when sellected.
@@ -70,7 +78,7 @@ Goodle Font
 
 4.2 Icons
 
-* Used icons in the navigation bar, footer throughout the website and on the body of the home page only, in the tittle.
+* Used icons in the navigation bar, footer throughout the website and in the body of the home page only, in the tittle.
 
 
 4.3 Colors
@@ -85,6 +93,8 @@ Goodle Font
 * Forms background #4a5666 
 
 4.4 Styling 
+* Navigation Bar font-family: Exo
+* Logo Name & Moto font-family: Exo
 
 4.5 Background 
 
@@ -164,6 +174,9 @@ diet to be provide to the customer
 * Used Youtube to get the music links https://www.youtube.com/watch?v=tAGnKpE4NCI
 * Used YTMP3.CC to convert the Youtube links into mp3 files https://ytmp3.cc/youtube-to-mp3/ - music licence type private (used for educative purposes)
 * Used Bootstrap for navigation 
+* Used to obtain mock-ups for the website http://ami.responsivedesign.is/#
+* Used for General Knowladge https://www.w3schools.com/
+* Used for General Knowladge https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment
 
 ## Deployment
 * Log in on github, click Settings
