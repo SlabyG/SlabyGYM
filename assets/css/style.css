@@ -273,7 +273,7 @@ a:hover {
 }
 .divname, .divfname, .divemail, .divtelephone, .divdate, .divtime, .form, .divadditinalinfo, .divaddress,
 .divhome {
-    margin-left: 40px;
+    margin-left: 20px;
     
 }
 .divname, .divfname {
