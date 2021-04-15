@@ -1,6 +1,7 @@
 # Welcome to SlabyGYM
 
 ## User-Centric Frontend Development Milestone Project
+![Website](/assets/testings/official.PNG)
 
 ## Introduction
 The Purpose of this README.md file is to provide a good insight with valuble information to you in order to understand how the website was established from the early staged to the end product. 
