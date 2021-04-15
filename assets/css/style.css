@@ -260,7 +260,7 @@ a:hover {
     overflow: auto;
 }
 .legend {
-    margin-left: 30px;
+    margin-left: 19px;
     margin-bottom: 30px;
     margin-top: 30px;
     border:1px solid #b8d5fd;
@@ -283,8 +283,9 @@ a:hover {
     display: inline-block;
 }
 
-.form {
-    width: 33%;
+.form-select {
+    width: 30%;
+    display: block;
 }
 .input-group-text, .form-select  {
     background-color: transparent; 
@@ -382,7 +383,9 @@ input {
 
 /*----END WhyUs.html section----*/
 /*---- gymmusic.html section----*/
-
+.music {
+    font-family: Exo;
+}
 .rock-music {
     display: inline-block;
     margin-bottom: 50px;
