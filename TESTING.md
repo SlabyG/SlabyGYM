@@ -36,4 +36,20 @@ Join Us | joinus.html scored 92% for accessibility as message "Form elements do 
 [Link for the error Description](/assets/testings/html-classes.PNG)
 
 
-**Web Site Testing**
+**Web Site Testing results in Lighthouse**  
+
+All the bellow pages have been tested in Incognito mode in Google Chrome.
+
+Main Home Page [Link](/assets/testings/lighthouseindex.PNG)
+
+Join Us [Link](/assets/testings/lighthjoinus.PNG)
+
+Classes Main [Link](/assets/testings/lighthouseclasses.PNG)
+
+Book your class [Link](/assets/testings/lighthousebookyourclass.PNG)
+
+Gallery [Link](/assets/testings/lighthousegallery.PNG)
+
+Why Us [Link](/assets/testings/lighthousewhyus.PNG)
+
+Gym Music [Link](/assets/testings/lighthousegymmusic.PNG)
