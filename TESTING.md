@@ -16,6 +16,7 @@ Bug 238 | Apearing once unknown reason unable to resolve [Bug 238 link](/assets/
 Bug 43 | Apearing 4 times unknown reason unable to resolve [Bug 43 link](/assets/testings/bug-43.PNG)
 Bug 27 | Apearing 7 times unknown reason unable to resolve [Bug 27 link](/assets/testings/bug-27.PNG)
 Footer | All footers in the html had overflow creating the scroll bar for x axes, resolved by adding a class to each footer and hiden the overflow in css [Footer link](/assets/testings/test1.PNG)
+Gallery pictures wont load in Incognito mode or on actual mobile devices | [Gallery Error](/assets/testings/galleryerro.PNG)
 
 
 
@@ -30,3 +31,6 @@ Footer | All footers in the html had overflow creating the scroll bar for x axes
 3. Error: Text not allowed in element iframe in this context. | deleted the <p> element and the context from the iframe.
 4. Error: Text not allowed in element iframe in this context. | deleted the <p> element and the context from the iframe.
 [Link for the error Description](/assets/testings/html-classes.PNG)
+
+
+**Web Site Testing**
