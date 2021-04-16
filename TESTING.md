@@ -16,7 +16,9 @@ Bug 238 | Apearing once unknown reason unable to resolve [Bug 238 link](/assets/
 Bug 43 | Apearing 4 times unknown reason unable to resolve [Bug 43 link](/assets/testings/bug-43.PNG)
 Bug 27 | Apearing 7 times unknown reason unable to resolve [Bug 27 link](/assets/testings/bug-27.PNG)
 Footer | All footers in the html had overflow creating the scroll bar for x axes, resolved by adding a class to each footer and hiden the overflow in css [Footer link](/assets/testings/test1.PNG)
-Gallery pictures wont load in Incognito mode or on actual mobile devices | The syntax was entered wrong as **"/assets/"** instead of **"assets/"** [Gallery Error](/assets/testings/galleryerror.PNG)
+Gallery pictures wont load in Incognito mode or on actual mobile devices | The syntax was entered wrong as **"/assets/"** instead of **"assets/"**. Syntax corrected by removing the / [Gallery Error](/assets/testings/galleryerror.PNG)
+Gym music | run the ligh house and was giving me 8 errors. The syntax was entered wrong in the audio source as **"/assets/"** instead of **"assets/"**. Syntax corrected by removing the /  [Music Error](/assets/testings/syntax-error.PNG)
+
 
 
 
