@@ -19,6 +19,7 @@ Footer | All footers in the html had overflow creating the scroll bar for x axes
 Gallery pictures wont load in Incognito mode or on actual mobile devices | The syntax was entered wrong as **"/assets/"** instead of **"assets/"**. Syntax corrected by removing the / [Gallery Error](/assets/testings/galleryerror.PNG)
 Gym music | run the ligh house and was giving me 8 errors. The syntax in gym music was entered wrong in the audio source as **"/assets/"** instead of **"assets/"**. Syntax corrected by removing the /  [Music Error](/assets/testings/syntax-error.PNG)
 Join Us | joinus.html scored 92% for accessibility as message "Form elements do not have associated labels" showed up. Fixed by removing the <p> and adding a <label> instead [Accessibility Score](/assets/testings/lighthousejoinus.PNG)
+Book you class Form | after re-coding the bookyour class form i checked to see if the forms were responsive had <form> parent element missing but after introduced i -rechecked the form and it does respond as instructed  [Form test](/assets/testings/joinusformtest.PNG)
 
 
 
@@ -26,18 +27,29 @@ Join Us | joinus.html scored 92% for accessibility as message "Form elements do 
 
 
 
-
-**Html valdiator**  | **How was the issue fixed** 
+**Html validator**  | **How was the issue fixed** 
 --------------------|----------------------------|
 1. Error: Text not allowed in element iframe in this context.| deleted the <p> element and the context from the iframe.
 2. Error: Text not allowed in element iframe in this context. | deleted the <p> element and the context from the iframe.
 3. Error: Text not allowed in element iframe in this context. | deleted the <p> element and the context from the iframe.
 4. Error: Text not allowed in element iframe in this context. | deleted the <p> element and the context from the iframe.
 [Link for the error Description](assets/testings/html-classes.PNG)
-5. HTML file checked for error by link | No errors found [Link](assets/testings/htmlvalidator.PNG)
+5. HTML file checked for error by URL | No errors found [Link](assets/testings/htmlvalidator.PNG)
+6. Home Page validity checked by input | No errors found [Link](assets/testings/htmlvalidatorindex.PNG)
+7. Join Us validity checked by input | Over 25 errors found,to fix those issues i had to remake the join us form as it was build with divs and they were direct children of <legend>, some of the issues were based on wrong values[Link before](assets/testings/htmlvalidatorjoinus.PNG). After solving all the issues run the test again and only had one worning based on the <section> lacking headings [Link after](assets/testings/htmlvalidatorjoinusafter.PNG).
 
 
-**Web Site Testing results in Lighthouse**  
+
+**Css validator** | **How was the issue fixed** 
+--------------------|----------------------------|
+1. Bootstrap Error | Two errors occured during the Css validation by URL targeting various classes [Link](assets/testings/cssvalidator.PNG)
+2. Websit Error | unable to find google fonts when Css was validated by URL, I have tried to reinstall the link in the header with the fonts and added new @import in the style.css. Commited the files & pushed on nthe server, however when i validated again via URL still same issu [Link](assets/testings/cssvalidator.PNG)
+3. CSS Validated by direct input | after trying to erase the above issue and did not work, I have validated the style.css by direct input which resulted in NO ERRORS however, it did show one Warning [Link](assets/testings/cssvalidatorbyinput.PNG)
+
+
+
+**Web Site Testing results in Lighthouse**  |
+---------------------------------------------
 
 All the bellow pages have been tested in Incognito mode in Google Chrome.
 

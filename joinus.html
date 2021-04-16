@@ -59,102 +59,104 @@
         </div>
     </header>
     <!--/Nav-->
-    <!-- Quote-->
+   
     <section >
         <div class="forms">
-            <form>
-                    <legend class="legend">
-                        <h3>Enter your personal details here!</h3>
-                        <div>
-                            <div class="divname">
-                                <label for="name">Name: </label>
-                                <br>
-                                    <input id="name" name="name" type="text"  required>
-                            </div>
+            <form action="/joinus.html" method="GET">
+             <fieldset class="legend" >
+                    <legend class="legends">
+                        <label>Enter your personal details here!</label>
+
+                        <br>
+
+                            <label class="divname" for="name">Name: 
+                            <br>
+                            <input id="name" name="name" type="text"  required>
+                            </label>
                             
-                            <div class="divfname">
-                                <label for="fname">First Name: </label>
-                                <br>
-                                    <input id="fname" name="fname" type="fname" required>
-                            </div>
-                            <br>
-                            <div class="divemail">
-                                <label for="email">Email: </label>
-                                <br>
-                                    <input id="email" name="email" type="email" required>
-                            </div>
-                            <div class="divtelephone">
-                                <label for="telephone">Mobile: </label>
-                                <br>
-                                    <input id="telephone" name="telephone" type="number" maxlength="10" required>
-                            </div>
-                            <br>
-                            <div class="divdate">
-                                <label for="date">Date of Birth: </label>
-                                <br>
-                                    <input id="date" name="date" type="date" required >
-                            </div>
-                            <div class="divhome">
-                                <label for="home">Home Address: </label>
-                                <br>
-                                 <input id="home" name="address" type="address" required>
-                            </div>
                             
-                            <div class="divadditinalinfo">
-                                <label for="additinalinfo">Medical History: </label>
-                                <br>
-                                <textarea name="additinalinfo" id="additinalinfo" cols="50" rows="4" placeholder="Enter Your Medical History Here"></textarea>
-                            </div>
-                            <hr>
-                             <h3>Enter your next of kin details here!</h3>
-                              <div class="divname">
-                                <label for="kname">Name: </label>
-                                <br>
-                                    <input id="kname" name="name" type="text"  required>
-                            </div>
+                            <label class="divfname" for="fname">First Name: 
+                            <br>
+                            <input id="fname" name="fname" type="text" required>
+                            </label>
                             
-                            <div class="divfname">
-                                <label for="kfname">First Name: </label>
-                                <br>
-                                    <input id="kfname" name="fname" type="fname" required>
-                            </div>
+                        <br>
+
+                            <label class="divemail" for="email">Email: 
                             <br>
-                            <div class="divemail">
-                                <label for="kemail">Email: </label>
-                                <br>
-                                    <input id="kemail" name="email" type="email" required>
-                            </div>
-                            <div class="divtelephone">
-                                <label for="ktelephone">Mobile: </label>
-                                <br>
-                                    <input id="ktelephone" name="telephone" type="number" maxlength="10" required>
-                            </div>
+                            <input id="email" name="email" type="email" required>
+                            </label>
+                            
+                            <label class="divtelephone" for="telephone">Mobile: 
                             <br>
-                            <div class="divname">
-                                <label for="kstatus">Status: </label>
-                                <br>
-                                    <input id="kstatus" name="name" type="text"  required>
-                            </div>
+                            <input id="telephone" name="telephone" type="tel" maxlength="10" required>
+                            </label>
+                            
+                        <br>
+                            <label class="divdate" for="date">Date of Birth: 
                             <br>
-                            <div class="divaddress">
-                                <label for="kaddress">Home Address: </label>
-                                <br>
-                                 <input id="kaddress" name="address" type="address" required>
-                            </div>
+                            <input id="date" name="date" type="date" required >
+                            </label>
+                        <br>
+                            <label class="divhome" for="home">Home Address: 
                             <br>
-                        </div>
+                            <input id="home" name="address" type="text" required>
+                            </label>
+                        <br>
+                            <label class="divadditinalinfo" for="additinalinfo">Medical History: 
+                            <br>
+                            <textarea name="additinalinfo" id="additinalinfo" cols="50" rows="4" placeholder="Enter Your Medical History Here"></textarea>
+                            </label>
+                            <br>
+
+                        <label>Enter your next of kin details here!</label> 
+
+                        <br>
+                            <label class="divname" for="kname">Name: 
+                            <br>
+                            <input id="kname" name="name" type="text"  required>
+                            </label>
+                            
+                            <label class="divfname" for="kfname">First Name: 
+                            <br>
+                            <input id="kfname" name="fname" type="text" required>
+                            </label>
+                            
+                            <br>
+                            <label class="divemail" for="kemail">Email: 
+                            <br>
+                            <input id="kemail" name="email" type="email" required>
+                            </label>
+
+                            <label class="divtelephone" for="ktelephone">Mobile: 
+                            <br>
+                            <input id="ktelephone" name="telephone" type="tel" maxlength="10" required>
+                            </label>
+                            
+                            <br>
+                            <label class="divname" for="kstatus">Status: 
+                            <br>
+                            <input id="kstatus" name="name" type="text"  required>
+                            </label>
+
+                            <label class="divaddress" for="kaddress">Home Address: 
+                            <br>
+                            <input id="kaddress" name="address" type="text" required>
+                            </label>
+                            <br>
+                            <br>
+                        
                     </legend>
-                <div class="accept">
-                    <label for="accept_terms">I agree with the Terms & Conditions
-                        <input type="checkbox" name="accept_terms" value="yes" checked required>
-                    </label>
-                    <br>
-                    <input id="submit" type="submit" value="Book Now">
-                </div>
-                
-            </form>
+             </fieldset>
+            
+            <div class="accept">
+                <label  for="accept_terms">I agree with the Terms & Conditions</label>
+                <input id="accept_terms" type="checkbox" required>
+                <br>
+                <input id="submit" type="submit" value="Book Now">
+            </div>
+        </form>
         </div>
-       
     </section>
     <!--/Quote-->
     <!--Social-->

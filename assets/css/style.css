@@ -260,6 +260,9 @@ a:hover {
     overflow: auto;
 }
 .legend {
+    margin-top: 30px;
+}
+.legends {
     margin-left: 19px;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -267,7 +270,7 @@ a:hover {
     width: 90%;
    
 }
-.legend h3 {
+.legends h3 {
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -299,7 +302,10 @@ a:hover {
     padding: 0px;
     color: #b8d5fd;
 }
-
+label {
+    margin-top: 20px;
+    margin-left: 20px;
+}
 input {
     background-color: transparent;
     border:1px solid #b8d5fd;    
