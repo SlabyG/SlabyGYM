@@ -62,48 +62,48 @@
     <!-- Quote-->
     <section >
         <div class="forms">
-            <form>
-                    <legend class="legend">
-                        <h3>Enter your details here!</h3>
-                        <div>
-                            <div class="divname">
-                                <label for="name">Name: </label>
-                                <br>
-                                    <input id="name" name="name" type="text"  required>
-                            </div>
+            <form action="/bookyourclass.html" method="GET">
+                <fieldset class="legend">
+                    <legend class="legends">
+                        <label>Enter your details here!</label>
+                        <br>
+                            <label class="divname" for="name">Name: 
+                            <br>
+                            <input id="name" name="name" type="text"  required>
+                            </label>
                             
-                            <div class="divfname">
-                                <label for="fname">First Name: </label>
-                                <br>
-                                    <input id="fname" name="fname" type="fname" required>
-                            </div>
+                            
+                            <label class="divfname" for="fname">First Name: 
                             <br>
-                            <div class="divemail">
-                                <label for="email">Email: </label>
-                                <br>
-                                    <input id="email" name="email" type="email" required>
-                            </div>
-                            <div class="divtelephone">
-                                <label for="telephone">Mobile: </label>
-                                <br>
-                                    <input id="telephone" name="telephone" type="number" maxlength="10" required>
-                            </div>
+                            <input id="fname" name="fname" type="text" required>
+                            </label>
                             <br>
-                            <div class="divdate">
-                                <label for="date">Date: </label>
-                                <br>
-                                    <input id="date" name="date" type="date" min="2000-01-01" required >
-                            </div>
-                            <div class="divtime">
-                                <label for="time">Time: </label>
-                                <br>
-                                    <input id="time" name="time" type="time" required>
-                            </div>
+                            
+                            <label class="divemail" for="email">Email: 
+                             <br>
+                            <input id="email" name="email" type="email" required>
+                            </label>
+                            
+                            <label class="divtelephone" for="telephone">Mobile: 
                             <br>
-                        <div class="input-group mb-3 form"> <!--the code in this div was taken from bootstrap Input Group/Custom Sellect# top option-->
-                            <label class="input-group-text" for="inputGroupSelect01">Select your calass</label>
-                                <select class="form-select" id="inputGroupSelect01" required>
-                                    <option selected ></option>
+                            <input id="telephone" name="telephone" type="tel" maxlength="10" required>
+                            </label>
+                            <br>
+                            
+                            <label class="divdate" for="date">Date: 
+                            <br>
+                            <input id="date" name="date" type="date" min="2000-01-01" required >
+                            </label>
+                            
+                            <br>
+                            <label class="divtime" for="time">Time: 
+                            <br>
+                            <input id="time" name="time" type="time" required>
+                            </label>
+                            <br>
+                            <br>
+                                <select class="form-select" id="inputGroupSelect01" required><!--the code in this div was taken from bootstrap Input Group/Custom Sellect# top option-->
+                                    <option selected label="Select your class here..."></option>
                                     <option value="1">Free Weight</option>
                                     <option value="2">Group PT</option>
                                     <option value="3">Spin & Pump</option>
@@ -112,21 +112,18 @@
                                     <option value="6">RIP 60</option>
                                     <option value="7">Yoga</option>
                                     <option value="8">Blast of Ab</option>
-                                </select>
-                        </div> <!--the code in this div was taken from bootstrap Input Group/Custom Sellect# top option--> 
-                        <div class="divadditinalinfo">
-                            <label for="additinalinfo">Additional Feedback: </label>
-                            <br>
-                            <textarea name="additinalinfo" id="additinalinfo" cols="50" rows="4" placeholder="Enter Your Feedback"></textarea>
-                        </div>
-                        </div>
+                                </select><!--the code in this div was taken from bootstrap Input Group/Custom Sellect# top option-->
+                        <label class="divadditinalinfo" for="additinalinfo">Additional Feedback: 
+                        <br>
+                        <textarea name="additinalinfo" id="additinalinfo" cols="50" rows="4" placeholder="Enter Your Feedback"></textarea>
+                        </label>
                     </legend>
                     <div class="container">
                         <div class="button-position">
                             <input id="submit" class="button center" type="submit" value="Book Now">
                         </div>
                     </div>
-                
+                </fieldset>
             </form>
         </div>
        

@@ -289,11 +289,15 @@ a:hover {
 .form-select {
     width: 30%;
     display: block;
+    margin-left: 20px;
+    
 }
-.input-group-text, .form-select  {
+
+#inputGroupSelect01  {
     background-color: transparent; 
     border:1px solid #b8d5fd;
     color: #b8d5fd;
+    
 
 }
 
