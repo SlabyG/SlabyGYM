@@ -33,23 +33,24 @@ Join Us | joinus.html scored 92% for accessibility as message "Form elements do 
 2. Error: Text not allowed in element iframe in this context. | deleted the <p> element and the context from the iframe.
 3. Error: Text not allowed in element iframe in this context. | deleted the <p> element and the context from the iframe.
 4. Error: Text not allowed in element iframe in this context. | deleted the <p> element and the context from the iframe.
-[Link for the error Description](/assets/testings/html-classes.PNG)
+[Link for the error Description](assets/testings/html-classes.PNG)
+5. HTML file checked for error by link | No errors found [Link](assets/testings/htmlvalidator.PNG)
 
 
 **Web Site Testing results in Lighthouse**  
 
 All the bellow pages have been tested in Incognito mode in Google Chrome.
 
-Main Home Page [Link](/assets/testings/lighthouseindex.PNG)
+1.1 Main Home Page [Link](/assets/testings/lighthouseindex.PNG)
 
-Join Us [Link](/assets/testings/lighthjoinus.PNG)
+1.2 Join Us [Link](/assets/testings/lighthjoinus.PNG)
 
-Classes Main [Link](/assets/testings/lighthouseclasses.PNG)
+1.3 Classes Main [Link](/assets/testings/lighthouseclasses.PNG)
 
-Book your class [Link](/assets/testings/lighthousebookyourclass.PNG)
+1.4 Book your class [Link](/assets/testings/lighthousebookyourclass.PNG)
 
-Gallery [Link](/assets/testings/lighthousegallery.PNG)
+1.5 Gallery [Link](/assets/testings/lighthousegallery.PNG)
 
-Why Us [Link](/assets/testings/lighthousewhyus.PNG)
+1.6 Why Us [Link](/assets/testings/lighthousewhyus.PNG)
 
-Gym Music [Link](/assets/testings/lighthousegymmusic.PNG)
+1.7 Gym Music [Link](/assets/testings/lighthousegymmusic.PNG)
