@@ -4,11 +4,10 @@
 ![Website](assets/testings/official.PNG)
 
 ## Introduction
-The Purpose of this README.md file is to provide a good insight with valuble information to you in order to understand how the website was established from the early staged to the end product. 
-The end product is going to be a Fictional and functional Gym site based on HTML, CSS and Bootstrap filles which will highlight my learnings
-for the first module of the Course 
+The Purpose of this README.md file is to provide a good insight with valuble information to the reader in order to understand how the website was established from the early staged to the end product. 
+The end product is going to be a Fictional and functional Gym site based on HTML, CSS and Bootstrap filles which will highlight my learnings for the first module of the Course 
 
-Throughout this form i will be covering few important stages and i should do my best to provide as much information for each stage such us UX, Features, Technology Used, Testing, Deployment and Credits.
+Throughout this form i will be covering few important stages and i should do my best to provide as much information for each stage such us UX, Features, Technology Used, Testing, Deployment and Credits. An additional Testing file was created where it will illustrate the technicall issues i cam accross and how i resolved them 
 
 ## UX
 In this section we will establish what we are aiming to achive and for whom.
@@ -25,7 +24,7 @@ abilities.
 * Easy to navigate throughout the website
 * Access to different types of classes 
 * Achieve and improve body dynamics
-* Improve overal health condition
+* Improve overall health condition
 * Value for money
 * Access to modern facilities
 * Access to different types of equipment
@@ -35,34 +34,34 @@ abilities.
 * To attract new members 
 * To offer affordable range for subscription fees 
 * Highlight the range of services provided 
-* Improve brand awarnes throughout the website and social media
-* Increase reveneuw 
+* Improve brand awarness throughout the website and social media
+* Increase revenue 
 
 3. User Stories
 
-As a customer visiting the website i would like to:
+As a customer visiting the website I would like to:
 
 * Be able to navigate throughout the pages of the website
-* Have all neccessary information 
-* Be able to contact the organistation if needed
+* Have all necessary information 
+* Be able to contact the organisation if needed
 * Clear content and specific 
 * Easy to find location and details 
-* Have a vast range to sellect form 
+
 
 As a developer my goals are to:
 
-* Creat a modern and easy to navigate webpage
+* Create a modern and easy to navigate webpage
 * Easy to understand the webpage
 * Provide the customers with relevant information 
 * Ensure that website is suitable for all users including impared user
 
-As a returned customer i would like to see:
+As a returned customer I would like to see:
 
 * News with promotions and offers 
 * Access to log-in on the website 
 * Access to re-edit my details 
 * Gym store 
-* Access to information based on 
+* Access to information based on nutrients and healthy life style
 
 #### Structure 
 
@@ -81,9 +80,9 @@ Google Font
 * Used icons in the navigation bar, footer throughout the website and in the body of the home page only, in the tittle.
 
 
-4.3 Colors
+4.3 Colours
 * Alert background #ffdec2
-* Aler text - black 
+* Alert text - black 
 * Text muted #c3c3c3
 * Title #b8d5fd
 * Icons #b8d5fd
@@ -124,7 +123,7 @@ Also when you click on **Join Us** that will bring you to a similar registration
 ![Joinus wireframe](assets/wireframes/pc/4wireframepc-joinus.PNG) ![Classes wireframe](assets/wireframes/tab/4joinustab.PNG) ![Classes wireframe](assets/wireframes/mob/4joinusmob.PNG)
 
 While in Classes the button for Gallery will be available and will contain relevant content to the visitor. When scrolled down there will be images coming up 
-along with cutomer feed back.
+along with customer feed back.
 
 ![Gallery wireframe](assets/wireframes/pc/5wireframepc-gallery.PNG) ![Classes wireframe](assets/wireframes/tab/5gallerytab.PNG) ![Classes wireframe](assets/wireframes/mob/5gallerymob.PNG)
 
@@ -181,8 +180,8 @@ diet to be provide to the customer
 ## Deployment
 * Log in on github, click Settings
 * Scroll to Github Pages and click on the link bellow (**Pages settings now has its own dedicated tab! Check it out here!**) 
-* Click Sellect Branch and change it to Master, 
-* Click on Select Folder and sellect root 
+* Click Select Branch and change it to Master, 
+* Click on Select Folder and select root 
 * Save your settings you will notice that you will be provided with a link above for your website.  
 
 ## Credits
@@ -214,7 +213,7 @@ diet to be provide to the customer
 * The form in book your class, where you sellect your class was taken from bootstrap.
 
 
-4. Acknowladge
+4. Acknowledge
 * Recived inspiration on creating my README.MD file from "Yoni Lavi" (https://github.com/Code-Institute-Solutions/readme-template) on Features 
 * Recived inspiration on creating my README.MD file from "Code Institute" (https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/c75714c9636b4cf59120d60acbec6ffd/f851a16813f14b3aae7bd1e6560443cd/) on the content of the README.md file
 * Eventyret_mentor for suggesting on ask-us-anything on slack community that i use incorect url for the iframe which inspired me to obtain correct url link
